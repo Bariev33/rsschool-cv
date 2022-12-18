@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto-Black.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
+ header {
+    background-color: bisque;
+    font-style: initial;
+    font-variant: small-caps;
+    padding-right: 200px;
+    align-content: center;
+    }
+  .footer {
+    align-items: center;
+    display: flex;
+    font-style: initial;
+    background-color: bisque;
+    font-variant: normal;
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    background-size: cover;
+    align-items: center;
+    padding-left: 250px;
+    margin-right
+    }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:rgb(228, 239, 240);
+    font-family: 'Roboto-Black';
+    background-image: url(/assets/img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .container {
+    max-width: 1440px;
+    margin: 0px;
+    padding-top: auto;
+    margin-right: 25px;
+    margin-left: 0px;
+    }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 10px 20px;
+    line-height: 50px;
+    transition: .3s;
+    font-style: initial;
+  }
+.section-item a {
+text-decoration: none;
+transition: color 0.5s;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.section {
+    width: 50%;
+    font-variant: normal;
+    float: left;
+    margin-top: 10px;
+    
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+.section-title {
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+  }
+.link {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.link:hover {
+    color: black;
+}
+.img {
+  width: 120px;
+  padding-top: 20px;
+  text-align: left;
+  vertical-align: auto;
+  float: left; 
+  padding-left: 10px;
+}
+.profile_photo {
+  width: 200px;
+  border-radius: 500%;
+  width: 300%;
+  max-width: 500%;
+  height: 100%;
+  border-style:double
+ }
+.profile-text {
+  padding-top: 20px;
+  }
+ .main-container {
+  font-variant: small-caps;
+ }
+ .profile-text {
+  font-variant: normal;
+ }
+ .footer {
+    position: relative;
+ }
+ .name {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+ }
+ .name2 {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+ }
+ .name3 {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+ }
+.name4 {
+border: 1px solid black;
+margin-right: 300px;
+background-color: bisque;
+color: black;
+padding-left: 10px;
+}
+.name5 {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+}
+.name6 {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+}
+.name7 {
+  border: 1px solid black;
+  margin-right: 300px;
+  background-color: bisque;
+  color: black;
+  padding-left: 10px;
+}
